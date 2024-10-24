@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function magic8Ball() {
+  let question = prompt("Ask a yes/no question:");
+  let answer = Math.floor(Math.random() * 20);
+
+  switch (answer) {
+    case 0:
+      document.write("It is certain.");
+      break;
+    case 1:
+    document.write("It is decidedly so.");
+      break;
+    case 2:
+    document.write("Without a doubt.");
+      break;
+    case 3:
+    document.write("Yes, definitely.");
+      break;
+    case 4:
+    document.write("You may rely on it.");
+      break;
+    case 5:
+    document.write("As I see it, yes.");
+      break;
+    case 6:
+    document.write("Most likely.");
+      break;
+    case 7:
+    document.write("Outlook good.");
+      break;
+    case 8:
+    document.write("Yes.");
+      break;
+    case 9:
+    document.write("Signs point to yes.");
+      break;
+    case 10:
+    document.write("Reply hazy, try again.");
+      break;
+    case 11:
+    document.write("Ask again later.");
+      break;
+    case 12:
+    document.write("Better not tell you now.");
+      break;
+    case 13:
+    document.write("Cannot predict now.");
+      break;
+    case 14:
+    document.write("Concentrate and ask again.");
+      break;
+    case 15:
+    document.write("Don't count on it.");
+      break;
+    case 16:
+    document.write("My reply is no.");
+      break;
+    case 17:
+    document.write("My sources say no.");
+      break;
+    case 18:
+    document.write("Outlook not so good.");
+      break;
+    case 19:
+    document.write("Very doubtful.");
+      break;
+    default:
+    document.write("Error: invalid answer index.");
+  }
+}
+
+magic8Ball();
+    </script>
+</body>
+</html>
